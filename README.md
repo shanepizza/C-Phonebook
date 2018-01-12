@@ -5,13 +5,21 @@ Description: This is a Phonebook programm that was created through coderunner. I
 
 do {
 			cout << endl;
+			
 			cout << "1. Search phone book" << endl;
+			
 			cout << "2. Add contact" << endl;
+			
 			cout << "3. Edit contact" << endl;
+			
 			cout << "4. End the program" << endl;
+			
 			cout << "Enter menu option by typing a number then hitting enter: ";
+			
 			cin >> menuOptions;
+			
 			cin.ignore(100, '\n');
+			
 			cout << endl;
 			if (menuOptions == 1){
 				search();
